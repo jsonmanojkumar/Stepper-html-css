@@ -96,22 +96,22 @@
 
 
          stap = [
-    { id: 'step1', name: 'item1', checked: 'active' },
-    { id: 'step2', name: 'item2', checked: '' },
-    { id: 'step3', name: 'item3', checked: '' },
-    { id: 'step4', name: 'item4', checked: '' }
-  ]
-
-  testAlert1() {
-    this.stap[0].checked = 'deactive';
-  }
-  testAlert2() {
-    this.stap[1].checked = 'active';
-  }
-  testAlert3() {
-    this.stap[2].checked = 'deactive';
-  }
-  testAlert4() {
-    this.stap[3].checked = 'active';
-  }
+            { id: 'step1', name: 'item1', checked: 'active' },
+            { id: 'step2', name: 'item2', checked: '' },
+            { id: 'step3', name: 'item3', checked: '' },
+            { id: 'step4', name: 'item4', checked: '' }
+          ]
+        
+          testAlert1() {
+            this.stap[0].checked = 'deactive';
+          }
+          testAlert2() {
+            this.stap[1].checked = 'active';
+          }
+          testAlert3() {
+            this.stap[2].checked = 'deactive';
+          }
+          testAlert4() {
+            this.stap[3].checked = 'active';
+          }
 
